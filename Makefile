@@ -20,7 +20,7 @@ BUILD_LORAWAN := $(BUILD)/lorawan
 ARMCC_VERSION := $(shell $(ARMCC) --version | grep $(ARMCC) | awk '{print $$8}' | awk -F "." '{print $$1}' )
 
 # This is the list of modules to compile
-MODULES = learn
+MODULES = learn rgb_test
 
 # Args to pass to MAKE
 MAKE_ARGS += -j4

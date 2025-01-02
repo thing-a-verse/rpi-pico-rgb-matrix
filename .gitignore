@@ -67,6 +67,7 @@ bin/
 pico-examples/
 pico-sdk/
 pico-lib/
+build/
 # ------------------------------
 #
 # Do not keep cross-compiler files
