@@ -1,0 +1,84 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# ------------------------------
+# CMake & PICO SDK ignores
+
+.DS_Store
+
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+
+# We use Make at the root
+#Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+# no vim swp files
+*.swp
+
+#
+# Do not keep build environment
+#
+build/
+#
+# Do not keep the executables or libraries
+#
+bin/
+#lib/
+#
+# Don't keep sdk or examples
+#
+pico-examples/
+pico-sdk/
+pico-lib/
+# ------------------------------
+#
+# Do not keep cross-compiler files
+#
+elf2uf2/
+generated/
+pioasm/
+src/*/elf2uf2/
+src/*/*.bin
+src/*/*.dis
+src/*/*.elf
+src/*/*.elf.map
+src/*/*.hex
+src/*/*.uf2
+src/*/packages/
